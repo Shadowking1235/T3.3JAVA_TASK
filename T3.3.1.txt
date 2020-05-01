@@ -12,6 +12,9 @@ public class Main {
                 case ("UPDATE"):
                     taskList.Update(args[3]);
                     break;
+                    case ("READ"):
+                    taskList.READ(args[3]);
+                    break;
                 case ("DELETE"):
                     taskList.Delete(args[3]);
                     break;
